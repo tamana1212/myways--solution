@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.sun {
+    width: 100px;
+    height: 50px;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+    border: 3px solid gold;
+    border-bottom: 0;
+    margin-top: 1rem;
+}
+
+html {
+    background-image: url('./images/wallpaperflare.com_wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #002E94; */
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.weather_card {
+    padding: 1rem;
+}
+
+.weather_card_current_temp {
+    font-size: 4rem;
+}
+
+.weather_card_title {
+    background-color: black;
+    padding: 0.5rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 0;
+}
+
+.weather_main_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    flex-direction: row;
+}
+
+.weather_side_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.forecast_card_parent {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 1rem 0 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border-radius: 5px;
+}
+
+.forecast_card {
+    display: flex;
+    flex-direction: column;
+    width: 5rem;
+}
+
+.forecast_card_div {
+    display: flex;
+    flex-direction: row;
+}
+
+.weather_details_toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.weather_details_card {
+    display: flex;
+}
+
+.weather_details {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 1rem;
+    width: 100%;
+}
+
+.sun_times {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.glass {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.button {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 3rem;
+    color: white;
+}
+
+.forecast_image {
+    width: 50px;
+}
